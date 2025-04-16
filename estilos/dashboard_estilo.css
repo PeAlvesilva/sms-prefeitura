@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(90deg, #5790ff, #c0d5ff);
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 1px;
+}
+
+.header-cont {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+}
+
+.acnt-area {
+    padding: 10px;
+    margin-right: auto;
+    display: flex;
+}
+
+.username {
+    font-size: 40px;
+    margin: 15px;
+}
+
+#profile-img {
+    width: 90px;
+}
+
+.feed-area {
+    height: 30px;
+    margin-right: -95px;
+    display: flex;
+}
+
+.feedback-btn {
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px auto; 
+} 
+
+.feedback-btn:hover {
+    background-color: whitesmoke;
+    height: 60px;
+}
+
+#feedback-img {
+    width: 70px;
+}

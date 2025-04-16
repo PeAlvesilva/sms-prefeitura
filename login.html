@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/login_estilo.css">
+    <link rel="stylesheet" href="estilos/media_style.css">
+    <script src="scripts/login_script.js" defer></script>
+    <title>Prefeitura App</title>
+</head>
+<body>
+    
+    <div class="name-container">
+        <h1>Faça o seu cadastro</h1>
+        <form onsubmit="salvarDados(event)">
+            <h3>Digite o seu nome</h3>
+            <input type="text" id="usuario" class="name-input" placeholder="Usuário" required>
+
+            <h3>Preencha o seu email</h3>
+            <input type="email" id="email" class="name-input" placeholder="E-mail" required>
+
+            <h3>Preencha a sua senha</h3>
+            <input type="password" id="senha" class="name-input" placeholder="Senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+</body>
+</html>

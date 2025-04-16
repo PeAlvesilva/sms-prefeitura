@@ -1,0 +1,30 @@
+/* Fundo para telas grandes */
+body {
+    background-image: url('../img/Leonardo_Phoenix_10_A_vibrant_and_joyful_adult_with_a_bright_s_2.jpg');
+}
+
+/* Fundo para tablets */
+@media (max-width: 1024px) {
+    body {
+        background-image: url('../img/Leonardo_Phoenix_10_A_smiling_adult_with_a_bright_and_relaxed_3.jpg');
+    }
+}
+
+/* Fundo para celulares */
+@media (max-width: 600px) {
+    body {
+        background-image: url('../img/_4e5834be-6563-4fba-9936-8f4c6b945b24\(1\).jpg');
+    }
+}
+
+@media (max-width: 1200px) {
+    .intro-container {
+        width: 420px;
+        height: 530px;
+    }
+
+    .name-container {
+        width: 420px;
+        height: 530px;
+    }
+}

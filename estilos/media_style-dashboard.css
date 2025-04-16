@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+    #profile-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .username {
+        font-size: 25px;
+        margin: 12px;
+    }
+
+    #feedback-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    header {
+        width: 99.5%;
+    }
+
+    .header-cont {
+        width: 75%;
+    }
+}
