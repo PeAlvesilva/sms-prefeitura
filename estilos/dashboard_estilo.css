@@ -25,17 +25,17 @@ header {
 }
 
 .username {
-    font-size: 40px;
+    font-size: 25px;
     margin: 15px;
 }
 
 #profile-img {
-    width: 90px;
+    width: 60px;
+    height: 60px;
 }
 
 .feed-area {
-    height: 30px;
-    margin-right: -95px;
+    right: -5px;
     display: flex;
 }
 
@@ -45,7 +45,11 @@ header {
     border: none;
     cursor: pointer;
     text-decoration: none;
-    margin: 10px auto; 
+    margin: 5px; 
+    right: 20px;
+    position: fixed;
+    z-index: 1000;
+    top: 10px;
 } 
 
 .feedback-btn:hover {
@@ -54,5 +58,5 @@ header {
 }
 
 #feedback-img {
-    width: 70px;
+    width: 60px;
 }
